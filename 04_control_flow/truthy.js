@@ -18,8 +18,18 @@ const userEmail = []
     
 // }
 
-const emptObj = {}
-if(Object.keys(emptObj).length === 0) {
-console.log("OBJ EMPTY");
+// const emptObj = {}
+// if(Object.keys(emptObj).length === 0) {
+// console.log("OBJ EMPTY");
 
-}
+// }
+
+// nullish coalescing operator (??):null undefined
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+val1 = null ?? 10 ?? 15
+
+console.log(val1);
+
